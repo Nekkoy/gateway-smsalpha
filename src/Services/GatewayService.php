@@ -9,7 +9,7 @@ use Nekkoy\GatewaySmsalpha\DTO\ConfigDTO;
  */
 class GatewayService
 {
-    protected array $config;
+    protected $config;
 
     public function __construct()
     {
